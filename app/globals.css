@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Custom Theme Variables */
+:root {
+  --primary: #0a1f44;
+  --secondary: #007bff;
+  --accent: #00a86b;
+  --action: #ff6a00;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #1f2937;
+}
