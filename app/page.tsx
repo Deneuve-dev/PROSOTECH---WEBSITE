@@ -1,9 +1,10 @@
 import Hero from "./sections/Hero";
 import ServicesPreview from "./sections/servicespreview";
 import PortfolioPreview from "./sections/portfoliopreview";
-import ClientsSection from "./sections/clients";
-import StatsSection from "./sections/statssection";
-import FloatingContact from "./components/FloatingContact";
+
+import Contact from "./contact/page";
+
+import Technology from "./technology/page";
 
 export default function Home() {
   return (
@@ -14,11 +15,8 @@ export default function Home() {
 
       <PortfolioPreview />
 
-      <ClientsSection />
-
-      <StatsSection />
-
-      <FloatingContact />
+      <Technology />
+      <Contact />
     </main>
   );
 }

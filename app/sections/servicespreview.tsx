@@ -1,54 +1,53 @@
 "use client";
 
 import {
+  Wifi,
   Server,
-  RadioTower,
   ShieldCheck,
   Sun,
-  Network,
-  Settings,
+  Wrench,
+  GraduationCap,
 } from "lucide-react";
 
-const services = [
-  {
-    title: "Telecom Infrastructure",
-    description:
-      "Design and deployment of reliable telecom networks, fiber systems and communication infrastructure.",
-    icon: RadioTower,
-  },
-  {
-    title: "Secure IT Systems",
-    description:
-      "Implementation of enterprise IT architectures, servers, and resilient data infrastructures.",
-    icon: Server,
-  },
-  {
-    title: "Cybersecurity",
-    description:
-      "Protection of digital assets through advanced security architecture and threat monitoring.",
-    icon: ShieldCheck,
-  },
-  {
-    title: "Renewable Energy",
-    description:
-      "Solar and hybrid energy systems designed to power critical infrastructure sustainably.",
-    icon: Sun,
-  },
-  {
-    title: "Network Engineering",
-    description:
-      "Advanced network design, routing architecture and performance optimization.",
-    icon: Network,
-  },
-  {
-    title: "Consulting & Integration",
-    description:
-      "Technical consulting and integration of complex telecom and IT ecosystems.",
-    icon: Settings,
-  },
-];
-
 export default function Services() {
+  const services = [
+    {
+      title: "Telecom Infrastructure",
+      icon: Wifi,
+      description:
+        "Deployment and maintenance of telecom infrastructure including network equipment, fiber optics, and communication systems.",
+    },
+    {
+      title: "IT Systems Integration",
+      icon: Server,
+      description:
+        "Design and integration of enterprise IT systems to ensure efficient, secure, and scalable operations.",
+    },
+    {
+      title: "Cybersecurity Solutions",
+      icon: ShieldCheck,
+      description:
+        "Implementation of modern cybersecurity practices to protect networks, data, and digital infrastructures.",
+    },
+    {
+      title: "Renewable Energy Systems",
+      icon: Sun,
+      description:
+        "Engineering and deployment of solar and hybrid renewable energy systems for reliable and sustainable power supply.",
+    },
+    {
+      title: "Preventive Maintenance",
+      icon: Wrench,
+      description:
+        "Professional maintenance programs to ensure operational continuity and reliability of critical systems.",
+    },
+    {
+      title: "Technical Training",
+      icon: GraduationCap,
+      description:
+        "Training programs for companies to strengthen employees' digital skills including computer basics, office tools (Word, Excel, PowerPoint), internet usage, and digital communication.",
+    },
+  ];
   return (
     <section className="py-28 bg-[#0B1220] text-white">
       <div className="max-w-7xl mx-auto px-6">
