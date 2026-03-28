@@ -13,14 +13,12 @@ export default function Footer() {
     <footer className="bg-[#0b1629] text-gray-300 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* Company */}
-        <div>
-          <h3 className="text-white text-xl font-semibold mb-4">PROSOTECH</h3>
-
-          <p className="text-gray-400 leading-relaxed">
-            Engineering reliable infrastructure across telecom, IT systems,
-            cybersecurity, and renewable energy solutions for organizations
-            across East Africa.
-          </p>
+        <div className="flex items-center">
+          <img
+            src="images/prosotechlogo.jpg"
+            alt="PROSOTECH Logo"
+            className="h-35 md:h-40 object-contain  opacity-90 hover:opacity-100 transition"
+          />
         </div>
 
         {/* Quick Links */}
@@ -113,7 +111,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-white/10 mt-12 pt-6 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} PROSOTECH. All rights reserved.
+        © PROSOTECH. All rights reserved.
       </div>
     </footer>
   );

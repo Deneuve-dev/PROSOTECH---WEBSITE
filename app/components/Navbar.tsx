@@ -42,9 +42,9 @@ export default function Navbar() {
             src="/images/prosologo.png"
             alt="Prosotech Logo"
             width={120}
-            height={100}
+            height={40}
             priority
-            className="object-contain h-10 w-auto"
+            className="object-contain h-15 w-auto"
           />
         </Link>
 
