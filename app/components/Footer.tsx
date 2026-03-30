@@ -17,7 +17,7 @@ export default function Footer() {
           <img
             src="images/prosotechlogo.jpg"
             alt="PROSOTECH Logo"
-            className="h-35 md:h-40 object-contain  opacity-90 hover:opacity-100 transition"
+            className="h-20 md:h-40 object-contain  opacity-90 hover:opacity-100 transition"
           />
         </div>
 

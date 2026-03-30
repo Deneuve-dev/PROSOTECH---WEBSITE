@@ -9,7 +9,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 
-export default function Services() {
+export default function Servicespreview() {
   const services = [
     {
       title: "Telecom Infrastructure",
@@ -29,17 +29,18 @@ export default function Services() {
       description:
         "Implementation of modern cybersecurity practices to protect networks, data, and digital infrastructures.",
     },
-    {
-      title: "Renewable Energy Systems",
-      icon: Sun,
-      description:
-        "Engineering and deployment of solar and hybrid renewable energy systems for reliable and sustainable power supply.",
-    },
+
     {
       title: "Preventive Maintenance",
       icon: Wrench,
       description:
         "Professional maintenance programs to ensure operational continuity and reliability of critical systems.",
+    },
+    {
+      title: "Renewable Energy Systems",
+      icon: Sun,
+      description:
+        "Engineering and deployment of solar and hybrid renewable energy systems for reliable and sustainable power supply.",
     },
     {
       title: "Technical Training",

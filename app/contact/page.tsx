@@ -108,8 +108,8 @@ export default function Contact() {
               <div>
                 <p className="text-gray-400 text-sm">Services</p>
                 <p className="font-medium mt-2">
-                  Telecom • IT Infrastructure • Cybersecurity • Renewable Energy
-                  • Preventive Maintenance • Technical Training
+                  Telecom • IT Infrastructure • Cybersecurity • Preventive
+                  Maintenance • Renewable Energy • Technical Training
                 </p>
               </div>
 

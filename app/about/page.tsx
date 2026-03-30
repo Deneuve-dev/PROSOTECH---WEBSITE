@@ -35,22 +35,24 @@ export default function About() {
 
             <p className="text-gray-400 mt-8 leading-relaxed">
               PROSOTECH is an engineering company based in Bujumbura delivering
-              integrated telecommunications, IT infrastructure, cybersecurity
-              and renewable energy solutions. Our mission is to build reliable
-              and scalable systems that power modern organizations and critical
+              integrated telecommunications, IT infrastructure, cybersecurity, ,
+              preventive maintenance, renewable energy and technical training
+              solutions. Our mission is to design and operate reliable, scalable
+              systems that support modern organizations and critical
               infrastructure.
             </p>
 
             <p className="text-gray-400 mt-6 leading-relaxed">
-              Our engineering teams combine deep technical expertise with
-              practical field experience to design and deploy systems that
-              ensure performance, resilience and long-term operational
-              reliability.
+              We combine deep engineering expertise with strong field experience
+              to deploy high-performance infrastructure, ensure system
+              reliability through preventive maintenance, and empower teams
+              through practical technical training programs in IT, digital tools
+              and operational technologies.
             </p>
 
             {/* KEY POINTS */}
 
-            <div className="grid grid-cols-2 gap-6 mt-10 text-sm">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-10 text-sm">
               <div className="border border-white/10 p-5 rounded-lg">
                 <h4 className="text-[var(--secondary)] font-semibold">
                   Telecom Engineering
@@ -77,6 +79,14 @@ export default function About() {
                   Protection of digital assets and mission-critical systems.
                 </p>
               </div>
+              <div className="border border-white/10 p-5 rounded-lg">
+                <h4 className="text-[var(--secondary)] font-semibold">
+                  Preventive Maintenance
+                </h4>
+                <p className="text-gray-400 mt-2">
+                  Ensuring reliability and performance of critical systems.
+                </p>
+              </div>
 
               <div className="border border-white/10 p-5 rounded-lg">
                 <h4 className="text-[var(--secondary)] font-semibold">
@@ -84,6 +94,16 @@ export default function About() {
                 </h4>
                 <p className="text-gray-400 mt-2">
                   Solar energy solutions for reliable infrastructure.
+                </p>
+              </div>
+
+              <div className="border border-white/10 p-5 rounded-lg">
+                <h4 className="text-[var(--secondary)] font-semibold">
+                  Technical Training
+                </h4>
+                <p className="text-gray-400 mt-2">
+                  Practical IT and digital skills training for teams and
+                  professionals.
                 </p>
               </div>
             </div>
